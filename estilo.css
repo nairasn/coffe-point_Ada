@@ -1,0 +1,242 @@
+/* CORES DO SITE: 
+marrom escurão: #442A1E
+chocolate: #72472E
+capuccino: #A07654
+caféComLeite: #CFB095
+leite: #E9D6BF */
+
+
+:root{
+    --cor-site:#442A1E;
+}
+
+html{
+    /* font-family: 'Playpen Sans', cursive; */
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* HEADER */
+
+.maxwidth{
+    max-width: auto;
+}
+
+.header{
+    width: auto;
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    width: 8em;
+    height: 100%;
+    margin: 1em;
+    margin-left: 3em;
+}
+
+.header-nav ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    letter-spacing: .1em;
+    font-size: 1.5em;
+}
+
+.header-nav a{
+    text-decoration: none;
+    display: block;
+    padding: .5em;  
+    color: var(--cor-site);
+    border-radius: 5px;
+}
+
+.header-nav a:hover{
+    background-color: #CFB095;
+    text-decoration: none;
+    display: block; 
+}
+
+.header-nav li{
+    display: inline-block;
+}
+
+
+
+/*  SOBRE  */
+
+.sobre{
+    background-color: #72472E;
+    color: #CFB095;
+
+    padding: 0 1em 1.5em 1em;
+    line-height: 1.5em;
+}
+
+.sobre div{
+    text-align: left;
+    margin: auto;
+    width: 80%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0;
+    padding-top: .5em;
+    color: var(--cor-site);
+    padding: 1.5em;
+}
+
+h2{
+    margin-top: 0;
+    padding-top: .5em;
+    color: var(--cor-site);
+}
+
+.sobre h3 {
+    
+    color: #E9D6BF;
+    text-decoration: solid;
+}
+
+
+
+.sobre-paragrafo{
+    font-size: 1.1em;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+
+/* Cardápio */
+
+
+.main-content{
+    background-color: #E9D6BF;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.main-content div{
+    margin: auto;
+    padding: 1em;
+    width: 80%;
+}
+
+.main-content-titulo{
+    color: var(--cor-site);
+
+}
+
+
+.icon-img{
+    width: 15em;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.col{
+    flex: 1 0 auto;
+}
+
+.col-6{
+    width: calc(50% - 2rem);
+}
+
+
+/* formulario  */
+
+.cadastro {
+    text-align: center;
+    margin: auto; 
+    padding: 1.5em;
+    
+}
+
+
+.cadastro form{
+    text-align: left;
+    
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto 2em;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 5px;
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    color:var(--cor-site);
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color:#442A1E;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color:#A07654;
+}
+
+
+
+/* RODAPÉ */
+
+.rodape{
+    background-color: #A07654;
+    color: var(--cor-site);
+    text-align: center;
+    padding: 1em;
+
+    bottom: 0;
+    
+    text-align: center;
+}
+
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.rodape-icone img{
+    width: 2.5em;
+    padding-right: 0.31em;
+}
